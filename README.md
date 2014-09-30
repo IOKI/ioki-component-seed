@@ -1,0 +1,2 @@
+ioki-component-seed
+===================
