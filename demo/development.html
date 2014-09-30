@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMPONENT_SEED Development</title>
+
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="css/development.css"/>
+    <link rel="stylesheet" href="css/ioki-COMPONENT_SEED.css"/>
+</head>
+<body ng-app="app">
+    <div class="container">
+        <div class="page-header">
+            <h1>COMPONENT_SEED</h1>
+            <p>Component for AngularJS. Developed by IOKI Team.</p>
+        </div>
+        <div class="workarea" ng-controller="WorkareaController">
+            <!-- Enjoy this space and use it wisely. Good Luck! -->
+            <h2>Welcome from {{company.name}}!</h2>
+            <p>This is our secret place where we bake amazing components!</p>
+            <component-seed></component-seed>
+        </div>
+    </div>
+
+    <script src="../bower_components/angular/angular.js"></script>
+
+    <script src="app.js"></script>
+    <script src="js/workarea-controller.js"></script>
+
+    <script src="../src/js/ioki-COMPONENT_SEED-directive.js"></script>
+    <script src="../src/js/ioki-COMPONENT_SEED.tpl.html.js"></script>
+</body>
+</html>
