@@ -74,7 +74,7 @@ There are some steps you need to do:
 *  ```package.json```
 *  ```README.md```
 
- and make sure you increase version of your component.
+and make sure you increase version of your component.
 
 2) Be sure you run ``` grunt release``` task.
 
