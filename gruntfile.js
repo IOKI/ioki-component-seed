@@ -46,7 +46,7 @@ module.exports = function(grunt) {
             dist: {
                 src: [
                     'src/js/ioki-COMPONENT_SEED-directive.js',
-                    'src/js/ioki-COMPONENT_SEED.tpl.html.js',
+                    'src/js/ioki-COMPONENT_SEED.tpl.html.js'
                 ],
                 dest: 'ioki-COMPONENT_SEED.js'
             }
